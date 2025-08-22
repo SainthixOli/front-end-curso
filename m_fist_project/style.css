@@ -36,7 +36,9 @@ header {
     max-width: 100%;
 }
 
+
 body {
+    border: 15px solid #69abee;
     font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
@@ -115,4 +117,16 @@ footer ul li:last-of-type{
 
 .uppercase{
     text-transform: uppercase;
+}
+
+.botao {
+    display: block;
+    width: fit-content; /* Se ajusta ao conteúdo do texto */
+    margin: 20px auto; /* Centraliza o botão e adiciona margem */
+    padding: 15px;
+    background: black;
+    color: white; /* Cor do texto do botão */
+    text-decoration: none; /* Remove a sublinha */
+    border-radius: 5px;
+    text-align: center;
 }
